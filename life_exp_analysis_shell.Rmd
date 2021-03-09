@@ -22,7 +22,7 @@ Here, I re-examine the analysis of Oeppen and Vaupel (2002).
 
 # Life Expectancy Analysis
 
-```{r}
+```{r echo=FALSE}
 data %>%
   group_by(year) %>%
   filter(lifeExp == max(lifeExp)) %>%
